@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: using a single string instead of a list of strings in the CMD instruction.  The original Dockerfile uses `CMD ["python3", "/app.py"]`, which is incorrect and will fail. The corrected Dockerfile uses `CMD ["python3", "/app.py"]`, which is the proper syntax.
